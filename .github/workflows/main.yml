@@ -14,7 +14,7 @@ jobs:
         run: |
           echo "Pinging remote repo - https://github.com/ydahal1/pong"
           curl -X POST https://api.github.com/repos/ydahal1/pong/dispatches \
-          # -H 'Accept: application/vnd.github.everest-preview+json' \
+          -H 'Accept: application/vnd.github.everest-preview+json' \
           -u ${{ secrets.ACCESS_TOKEN }} \
           --data '{"event_type": "ping", "client_payload": { "repository": "'"$GITHUB_REPOSITORY"'" }}'
 
