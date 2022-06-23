@@ -1,0 +1,9 @@
+name: Ping to Pong
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  run: echo new push detected, pinging my bff pong
