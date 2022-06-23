@@ -1,4 +1,4 @@
-name: Ping to Pong
+name: Pinging remote repo- PONG 
 
 on:
   push:

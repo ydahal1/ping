@@ -1,4 +1,4 @@
-name: Remote Dispatch Action Responder
+name: Response from remote repo - PONG
 
 on: [repository_dispatch]
 
